@@ -12,7 +12,7 @@ const UIContreller = (function(){
             var html_one_product = `   
             <div class="one_product_div">
             <button class="add_btn">
-            <a href="../Coosmetic/basket.html?name=${data.id+data.id}" target="_blank" class="details"> Add basket</a>
+            <a href="../Cosmetic_Store_online/basket.html?name=${data.id+data.id}" target="_blank" class="details"> Add basket</a>
              </button>
               <div class="one_product">
                    <div class="product_img_div">
@@ -22,7 +22,7 @@ const UIContreller = (function(){
                   <p class="product_name" id="one">${data.name}</p>
                   <p class="price" id="one">${data.price}<span class="span_sign">${data.price_sign}</span></p>
                  <button class="detail_btn">
-                     <a href="../Coosmetic/details.html?name=${data.id}" target="_self" class="details">details</a>
+                     <a href="../Cosmetic_Store_online/details.html?name=${data.id}" target="_self" class="details">details</a>
                   </button>
                 </div>
              </div>
@@ -56,7 +56,7 @@ const UIContreller = (function(){
        <tr>
           <th> 
           <button class="detail_btn">
-          <a href="../Coosmetic/details.html?name=${data.id}" target="_self" class="details">details</a>
+          <a href="../Cosmetic_Store_online/details.html?name=${data.id}" target="_self" class="details">details</a>
           </button>
           </th>
           <th>${data.brand}</th>
